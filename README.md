@@ -5,11 +5,13 @@
 - [fluro](https://pub.dev/packages/fluro)
 - [provider](https://pub.dev/packages/provider)
 - [universal_html](https://pub.dev/packages/universal_html)
+- [google_fonts](https://pub.dev/packages/google_fonts)
 
 ````
 flutter pub add fluro
 flutter pub add provider
 flutter pub add universal_html
+flutter pub add google_fonts
 ````
 
 
@@ -19,7 +21,7 @@ Para quitar el # de las rutas agregar al pusbsprec.yaml
 flutter_web_plugins:
     sdk: flutter
  ```
- Tambien agregar en la función main
+ Tambien agregar en la función main, utilizando `flutterweb` en visual estudio code
 ````
 setUrlStrategy(PathUrlStrategy());
 ````
