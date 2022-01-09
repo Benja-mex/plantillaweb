@@ -191,3 +191,19 @@ class MyApp extends StatelessWidget {
 }
 ````
 
+# Observaciomes
+
+Las vistas page se crean con el siguiente comando 'pageview' en android estudio
+
+````
+import 'package:flutter/material.dart';
+
+class  View extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+````
+
